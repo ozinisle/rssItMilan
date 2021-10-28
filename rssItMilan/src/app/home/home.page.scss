@@ -1,0 +1,52 @@
+#container {
+  text-align: center;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 50%;
+  background-image: url("/assets/images/rssItMilanHomeScreen.png");
+  background-size: 100% 100%;
+  transform: translateY(-50%);
+  min-height: 100%;
+  min-width: 100%;
+
+  .register-overlay {
+    position: absolute;
+    opacity: 0.25;
+    z-index: 2;
+    bottom: 32%;
+    left: 4%;
+    height: 8%;
+    width: 45%;
+  }
+
+  .login-overlay {
+    position: absolute;
+    opacity: 0.25;
+    z-index: 2;
+    bottom: 32%;
+    right: 4%;
+    height: 8%;
+    width: 45%;
+  }
+}
+
+
+
+// #container strong {
+//   font-size: 20px;
+//   line-height: 26px;
+// }
+
+// #container p {
+//   font-size: 16px;
+//   line-height: 22px;
+
+//   color: #8c8c8c;
+
+//   margin: 0;
+// }
+
+// #container a {
+//   text-decoration: none;
+// }
